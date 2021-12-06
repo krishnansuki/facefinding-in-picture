@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 face_cascade = cv2.CascadeClassifier('D:/html/New folder/haarcascade_frontalface_default.xml')
-pic = cv2.imread('D:/my pics/ijj.jpg')
+pic = cv2.imread('give the path of the picture')
 scale_factor = 1.3
 while 1:
     faces = face_cascade.detectMultiScale(pic, scale_factor, 5)
